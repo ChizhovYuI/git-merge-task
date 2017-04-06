@@ -6,6 +6,7 @@ namespace Kontur.Courses.Git
 
 		public Maybe<double> Calculate(string[] args)
 		{
+
 			if (args.Length == 0)
 				return lastResult;
 			if (args.Length == 1)
